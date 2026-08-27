@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Mi Portfolio</div>
+        <div class="nav-links">
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#skills">Skills</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <h1>¡Hola! Soy Programador Web</h1>
+        <p>Enfocado en crear sitios web con código estructurado, limpio y eficiente.</p>
+        <a href="#contacto" class="btn">Hablemos</a>
+    </header>
+
+    <main>
+        <section id="sobre-mi" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Estoy formándome en programación y desarrollo web. Me enfoco en construir sitios web utilizando HTML y CSS, cuidando la estructura del código, aplicando buenas prácticas y entendiendo la lógica detrás de cada proyecto.</p>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <h2>Mis Herramientas y Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5 Semántico</div>
+                <div class="skill-card">CSS3 (Flexbox & Grid)</div>
+                <div class="skill-card">Lógica de Programación</div>
+                <div class="skill-card">Variables & Animaciones CSS</div>
+                <div class="skill-card">Git & GitHub (Básico)</div>
+                <div class="skill-card">Estructuración de Código</div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2>Proyectos Destacados</h2>
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <h3>Landing Page para Comercio Local</h3>
+                    <p>Sitio web para una cafetería local, estructurado para mostrar el menú, la historia del establecimiento y accesos a redes sociales.</p>
+                </div>
+                <div class="proyecto-card">
+                    <h3>Componente de Precios (Pricing Table)</h3>
+                    <p>Tabla interactiva de planes de suscripción realizada con HTML y CSS, cuidando la alineación de elementos y la jerarquía visual.</p>
+                </div>
+                <div class="proyecto-card">
+                    <h3>Página de Enlaces (Estilo Linktree)</h3>
+                    <p>Página centralizadora con botones personalizados y un diseño limpio para agrupar perfiles de redes sociales en un solo lugar.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section bg-light">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna consulta o propuesta de colaboración?</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo" required>
+                <textarea rows="5" placeholder="Tu Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>2026 Mi Portfolio. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
